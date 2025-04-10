@@ -1,0 +1,176 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  height: 80vh;
+}
+
+.landing-page .carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.landing-page .carousel span i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.landing-page .carousel .slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-page .text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.landing-page .text h1 {
+  text-transform: capitalize;
+  font-family: var(--primaryFonts);
+  width: 40%;
+  font-weight: bold;
+}
+
+.landing-page .text p {
+  width: 50%;
+  font-size: 15px;
+  font-family: var(--primaryFonts);
+}
+
+.aims-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.aims-sec .left,
+.aims-sec .right {
+  width: 50%;
+}
+
+.aims-sec .left .thumbnail {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.aims-sec .left .note {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.aims-sec .left .note h2 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: var(--primaryFonts);
+}
+
+.aims-sec .left .note p {
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  margin-top: 30px;
+  margin-right: 10%;
+}
+
+.aims-sec .left .note .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  padding: 0px 20px;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.aims-sec .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.aims-sec .right h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: var(--primaryFonts);
+    text-align: right;
+    margin-left: 5%;
+}
+
+.aims-sec .right small{
+    margin-top: 20px;
+    font-family: var(--primaryFonts);
+    font-size: 13px;
+    text-align: right;
+}
+
+.aims-sec .right p{
+    margin-top: 5%;
+    font-family: var(--primaryFonts);
+    font-size: 13px;
+    width: 300px;
+    text-align: right;
+}
+
+.aims-sec .right .cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.aims-sec .right .cont .clients{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.aims-sec .right .cont .clients span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid silver;
+    background-color: white;
+    margin-right: -10px;
+    z-index: 10;
+}
+
+.aims-sec .right .cont .count{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aims-sec .right .cont .count h1{
+    font-family: var(--primaryFonts);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.aims-sec .right .cont .count small{
+    text-align: left;
+    margin: 0px;
+    font-size: 12px;
+}

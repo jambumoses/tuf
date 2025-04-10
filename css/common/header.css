@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  padding-top: 20px;
+}
+
+header .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 3%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+header nav ul li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  margin: 0px 10px;
+  height: 40px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-family: var(--primaryFonts);
+  transition: 0.3s linear;
+}
+
+header nav ul li a:hover {
+  background-color: aliceblue;
+  transition: 0.3s linear;
+}
+
+header nav ul li .active {
+  background-color: aliceblue;
+  transition: 0.3s linear;
+}
+
+header nav ul li a i {
+  margin-left: 20px;
+}
+
+header nav .donate-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  height: 40px;
+  padding: 0px 25px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-family: var(--primaryFonts);
+  transition: 0.3s linear;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+/* popover */
+
+.nav-popover {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  margin: auto;
+}
+
+.popover-container {
+  display: none;
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(59, 59, 59, 0.227);
+}
