@@ -101,76 +101,175 @@
   border-radius: 5px;
 }
 
-.aims-sec .right{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.aims-sec .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .aims-sec .right h1 {
-    font-size: 35px;
-    text-transform: capitalize;
-    font-family: var(--primaryFonts);
-    text-align: right;
-    margin-left: 5%;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: var(--primaryFonts);
+  text-align: right;
+  margin-left: 5%;
 }
 
-.aims-sec .right small{
+.aims-sec .right small {
+  margin-top: 20px;
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  text-align: right;
+}
+
+.aims-sec .right p {
+  margin-top: 5%;
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  width: 300px;
+  text-align: right;
+}
+
+.aims-sec .right .cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.aims-sec .right .cont .clients {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.aims-sec .right .cont .clients span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid silver;
+  background-color: white;
+  margin-right: -10px;
+  z-index: 10;
+}
+
+.aims-sec .right .cont .count {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aims-sec .right .cont .count h1 {
+  font-family: var(--primaryFonts);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.aims-sec .right .cont .count small {
+  text-align: left;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.posts-sec {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 5%;
+}
+
+.posts-sec .heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-sec .heading h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primaryFonts);
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.posts-sec .heading h1 a {
+  font-size: 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.posts-sec .heading h1 a i {
+  margin-left: 5px;
+}
+
+.posts-sec .heading small {
+    width: 50%;
     margin-top: 20px;
     font-family: var(--primaryFonts);
     font-size: 13px;
-    text-align: right;
 }
 
-.aims-sec .right p{
+
+.posts-sec .posts-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 5%;
-    font-family: var(--primaryFonts);
-    font-size: 13px;
-    width: 300px;
-    text-align: right;
 }
 
-.aims-sec .right .cont{
+.posts-sec .posts-box .post{
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    width: 45%;
+    margin-bottom: 50px;
 }
 
-.aims-sec .right .cont .clients{
-    display: flex;
-    flex-direction: row;
-    margin-right: 30px;
-}
-
-.aims-sec .right .cont .clients span{
+.posts-sec .posts-box .post .img{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid silver;
-    background-color: white;
-    margin-right: -10px;
-    z-index: 10;
+    height: 200px;
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
 }
 
-.aims-sec .right .cont .count{
+.posts-sec .posts-box .post .detail{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 7%;
 }
 
-.aims-sec .right .cont .count h1{
+.posts-sec .posts-box .post .detail h3{
     font-family: var(--primaryFonts);
-    font-size: 15px;
-    font-weight: bold;
-    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
-.aims-sec .right .cont .count small{
-    text-align: left;
-    margin: 0px;
-    font-size: 12px;
+.posts-sec .posts-box .post .detail small{
+    font-family: var(--primaryFonts);
+    font-size: 13px;
+    font-style: italic;
+}
+
+.posts-sec .posts-box .post .detail p{
+    font-family: var(--primaryFonts);
+    font-size: 13px;
+}
+
+.posts-sec .posts-box .post .detail a{
+    font-family: var(--primaryFonts);
+font-size: 11px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.posts-sec .posts-box .post .detail a i{margin-left: 10px;
 }
