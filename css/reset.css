@@ -12,6 +12,7 @@
     scroll-behavior: smooth;
     /* overscroll-behavior: none; */
     overflow-x: hidden;
+    background-color: rgb(248, 248, 248);
   }
   
   body {

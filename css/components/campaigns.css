@@ -1,0 +1,160 @@
+.campaigns-sec {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5%;
+}
+
+.campaigns-sec .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campaigns-sec .heading small {
+  font-size: 15px;
+  font-family: var(--primaryFonts);
+  text-transform: uppercase;
+}
+
+.campaigns-sec .heading h1 {
+  font-size: 40px;
+  font-family: var(--primaryFonts);
+  text-transform: capitalize;
+}
+
+.campaigns-sec .heading p {
+  font-size: 13px;
+  font-family: var(--primaryFonts);
+  width: 400px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.campaigns-sec .campaigns-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 0px;
+  margin-bottom: 10%;
+}
+
+.campaigns-sec .campaigns-cont .campaign {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 370px;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.campaigns-sec .campaigns-cont .campaign .status {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  left: 40px;
+  height: 20px;
+  font-family: var(--primaryFonts);
+  padding: 0px 20px;
+  text-transform: capitalize;
+  font-size: 11px;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.campaigns-sec .campaigns-cont .campaign .media-ico {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 40px;
+  height: 20px;
+  width: 30px;
+  font-size: 11px;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.campaigns-sec .campaigns-cont .campaign .bottom-arrow {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  right: 0px;
+  height: 50px;
+  width: 50px;
+  font-size: 15px;
+  color: white;
+  border-top-left-radius: 35px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.campaigns-sec .campaigns-cont .campaign .thumbnail {
+  height: 250px;
+  width: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: lightgray;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail h1 {
+  font-family: var(--primaryFonts);
+  margin: 20px 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail p {
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  margin: 0px 40px;
+  margin-bottom: 50px;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail .counts {
+display: flex;
+flex-direction: row;
+margin: 20px 40px;
+align-items: center;
+justify-content: space-between;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail .counts h1{
+    font-family: var(--primaryFonts);
+    font-size: 30px;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail .counts .num{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail .counts .num small{
+    font-family: var(--primaryFonts);
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+.campaigns-sec .campaigns-cont .campaign .detail .counts .num h4{
+    font-family: var(--primaryFonts);
+    font-size: 13px;
+}
