@@ -1,0 +1,101 @@
+.newsletters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 5%;
+}
+
+.newsletters .heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletters .heading h1 {
+  font-family: var(--primaryFonts);
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.newsletters .heading small {
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.newsletters .input {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletters .input span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 15px;
+    border-top-left-radius: 0px;
+    border: 1px solid silver;
+}
+
+.newsletters .input span i {
+    margin-right: 10px;
+}
+
+.newsletters .input span input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 200px;
+    font-family: var(--primaryFonts);
+    font-size: 11px;
+}
+
+.newsletters .input span button {
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 150px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    font-family: var(--primaryFonts);
+    font-size: 11px;
+}
+
+.newsletters .ico-det {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newsletters .ico-det .ico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.newsletters .ico-det .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletters .ico-det .detail h3 {
+  font-family: var(--primaryFonts);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.newsletters .ico-det .detail small {
+  font-family: var(--primaryFonts);
+  font-size: 11px;
+  text-transform: initial;
+}

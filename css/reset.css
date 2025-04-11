@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    overscroll-behavior: none;
+    /* overscroll-behavior: none; */
     overflow-x: hidden;
   }
   
@@ -21,7 +21,7 @@
     padding: 0;
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
-    overscroll-behavior: none;
+    /* overscroll-behavior: none; */
     overflow-x: hidden;
   }
   

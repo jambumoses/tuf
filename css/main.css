@@ -8,3 +8,6 @@
 
 /* pages */
 @import url("./pages/home.css");
+
+/* components */
+@import url("./components/newsletters.css");
