@@ -96,10 +96,62 @@ header nav .donate-btn {
 
 .popover-container {
   display: none;
+  flex-direction: column;
   width: 70%;
   height: 80%;
   border-radius: 10px;
   padding: 20px;
   background-color: white;
   box-shadow: 5px 5px 20px rgba(59, 59, 59, 0.227);
+}
+
+.popover-container h1{
+  font-family: var(--primaryFonts);
+  font-size: 20px;
+  margin: 10px 0px;
+  text-transform: capitalize;
+}
+
+.popover-container h1 i{
+  margin-right: 15px;
+}
+
+.popover-container .links-cont{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+
+.popover-container .links-cont ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  margin: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.popover-container .links-cont ul li{
+  list-style: none;
+  margin: 10px 10px;
+}
+
+.popover-container .links-cont ul li a{
+  text-decoration: none;
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.popover-container .links-cont ul li a:hover{
+  color: grey;
+}
+
+.popover-container .links-cont ul li a i{
+margin-right: 20px;
 }

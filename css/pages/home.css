@@ -207,69 +207,188 @@
 }
 
 .posts-sec .heading small {
-    width: 50%;
-    margin-top: 20px;
-    font-family: var(--primaryFonts);
-    font-size: 13px;
+  width: 50%;
+  margin-top: 20px;
+  font-family: var(--primaryFonts);
+  font-size: 13px;
 }
 
-
-.posts-sec .posts-box{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 5%;
+.posts-sec .posts-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
-.posts-sec .posts-box .post{
-    display: flex;
-    flex-direction: row;
-    width: 45%;
-    margin-bottom: 50px;
+.posts-sec .posts-box .post {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  margin-bottom: 50px;
 }
 
-.posts-sec .posts-box .post .img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 300px;
-    border: 1px solid silver;
-    border-radius: 10px;
+.posts-sec .posts-box .post .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  border: 1px solid silver;
+  border-radius: 10px;
 }
 
-.posts-sec .posts-box .post .detail{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 7%;
+.posts-sec .posts-box .post .detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 7%;
 }
 
-.posts-sec .posts-box .post .detail h3{
-    font-family: var(--primaryFonts);
-    font-size: 20px;
-    text-transform: capitalize;
+.posts-sec .posts-box .post .detail h3 {
+  font-family: var(--primaryFonts);
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
-.posts-sec .posts-box .post .detail small{
-    font-family: var(--primaryFonts);
-    font-size: 13px;
-    font-style: italic;
+.posts-sec .posts-box .post .detail small {
+  font-family: var(--primaryFonts);
+  font-size: 13px;
+  font-style: italic;
 }
 
-.posts-sec .posts-box .post .detail p{
-    font-family: var(--primaryFonts);
-    font-size: 13px;
+.posts-sec .posts-box .post .detail p {
+  font-family: var(--primaryFonts);
+  font-size: 13px;
 }
 
-.posts-sec .posts-box .post .detail a{
-    font-family: var(--primaryFonts);
-font-size: 11px;
-    text-transform: capitalize;
-    text-decoration: none;
+.posts-sec .posts-box .post .detail a {
+  font-family: var(--primaryFonts);
+  font-size: 11px;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 
-.posts-sec .posts-box .post .detail a i{margin-left: 10px;
+.posts-sec .posts-box .post .detail a i {
+  margin-left: 10px;
+}
+
+/* ============ */
+
+.short-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10% 5%;
+}
+
+.short-about .thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 400px;
+  background-color: aliceblue;
+}
+
+.short-about .mission{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.short-about .mission small{
+  color: orange;
+  font-family: var(--primaryFonts);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.short-about .mission h1{
+  font-family: var(--primaryFonts);
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.short-about .mission span{
+  font-family: var(--primaryFonts);
+  font-size: 15px;
+  margin: 10px 0px;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 60%;
+}
+
+.short-about .mission p{
+  font-family: var(--primaryFonts);
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.short-about .mission p small{
+  display: block;
+  font-family: var(--primaryFonts);
+  font-size: 12px;
+  margin: 20px 0px;
+  color: inherit;
+  text-transform: initial;
+}
+
+.short-about .mission .author{
+  display: flex;
+  flex-direction: row;
+}
+
+.short-about .mission .author .signature{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primaryFonts);
+  font-style: italic;
+  font-size: 10px;
+  width: 50%;
+}
+
+.short-about .mission .author .user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.short-about .mission .author .user .img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  font-size: 13px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+.short-about .mission .author .user .info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.short-about .mission .author .user .info h1{
+  font-family: var(--primaryFonts);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.short-about .mission .author .user .info small{
+  font-family: var(--primaryFonts);
+  font-size: 11px;
+  color: grey;
+  margin-top: 10px;
+  text-transform: capitalize;
 }
