@@ -1,6 +1,5 @@
 import AboutLandingPage from "@/components/AboutLandingPage";
 import Counts from "@/components/Counts";
-import GoalObjectives from "@/components/GoalObjectives";
 import Mission from "@/components/Mission";
 import Newsletters from "@/components/Newsletters";
 import Team from "@/components/Team";

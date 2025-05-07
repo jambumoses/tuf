@@ -18,7 +18,7 @@ export default function NotFound() {
         404 - Not Found
       </h1>
       <span className="text-zinc-500 text-xs mb-4">
-        Sorry, the page you're looking for doesn't exist.
+        Sorry, the page you&apos;re looking for doesn&apos;t exist.
       </span>
 
       <span onClick={handleGoBack} className="flex flex-row items-center text-[13px] cursor-pointer">

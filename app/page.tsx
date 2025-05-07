@@ -6,7 +6,6 @@ import LandingSection from "@/components/LandingSection";
 import Newsletters from "@/components/Newsletters";
 import PostsShowcase from "@/components/PostsShowcase";
 import ShortAbout from "@/components/ShortAbout";
-import Image from "next/image";
 
 export default function Home() {
   return (

@@ -14,7 +14,7 @@ export default function ShortAbout() {
           support people in extreme need
         </h1>
         <span className="text-[15px] my-[10px] mx-[0px] capitalize font-bold w-[60%]">
-          our promise that your giving is doing what it's supposed to changing
+          our promise that your giving is doing what it&apos;s supposed to changing
           lives.
         </span>
         <p className="text-[12px] my-[20px] mx-[0px]">
