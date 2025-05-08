@@ -5,7 +5,6 @@ import {
   Instagram,
   Linkedin,
   Twitter,
-  Copyright,
   ArrowRight,
   Map,
   Phone,

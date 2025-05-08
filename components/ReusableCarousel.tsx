@@ -1,18 +1,15 @@
 "use client";
 
-import React, { useState, useEffect, useRef, FC } from "react";
+import React, { useState, FC, ReactNode } from "react";
 
 interface carouselProps {
-  autoSlideInterval?: number;
-  children: any;
+  children: ReactNode;
 }
 
 const Carousel: FC<carouselProps> = ({
   children,
-  autoSlideInterval = 3000,
 }) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const timerRef = useRef(null);
   const totalSlides = React.Children.count(children);
 
   const nextSlide = () => {
