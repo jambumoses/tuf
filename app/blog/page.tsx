@@ -1,12 +1,31 @@
 import Newsletters from "@/components/Newsletters";
-import { ArrowRight, Book, Video } from "lucide-react";
+import { Book, ArrowRight, MoveRight, Video } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
 export default function BlogPage() {
   return (
     <section>
-      <div className="h-[70vh] mx-[3%] bg-amber-100">BlogPage</div>
+      <div className="relative flex flex-col h-[80vh] mx-[3%] rounded-[20px] bg-zinc-200">
+        {/* img */}
+        <div className="flex flex-col absolute bottom-0 my-[3%] mx-[5%]">
+          <small className="capitalize text-[15px] text-zinc-500 mb-3">
+            <Link href="" className="text-inherit">featured</Link>
+          </small>
+          <Link href={""} className="text-[40px] capitalize font-bold">
+            breaking into product design: Advice from untitled founder, frankie
+          </Link>
+          <p className="mt-[20px] text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            recusandae cum possimus nesciunt deleniti similique consequatur quo
+            rem, veniam, odio officiis ab unde? Deleniti harum dolores eaque
+            corrupti iste error.
+          </p>
+          <Link href={""} className="mt-2">
+            <MoveRight size={30}/>
+          </Link>
+        </div>
+      </div>
 
       <div className="mx-[5%] mt-[20px] flex flex-row justify-between">
         <h1 className="flex flex-row justify-between items-center bg-gray-200 w-[250px] p-[20px] text-[15px] font-light capitalize rounded-lg">
@@ -118,9 +137,9 @@ export default function BlogPage() {
                 minivan build match, double your gift, double your fund
               </h1>
               <p className="text-[13px] mx-[40px] my-[0px] mb-[50px]">
-                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump, and toward
-                another build in 2020. An anonymous donor will match your gift,
-                dollar for dollar...&rdquo;
+                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump,
+                and toward another build in 2020. An anonymous donor will match
+                your gift, dollar for dollar...&rdquo;
               </p>
             </div>
           </div>
@@ -157,9 +176,9 @@ export default function BlogPage() {
                 minivan build match, double your gift, double your fund
               </h1>
               <p className="text-[13px] mx-[40px] my-[0px] mb-[50px]">
-                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump, and toward
-                another build in 2020. An anonymous donor will match your gift,
-                dollar for dollar...&rdquo;
+                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump,
+                and toward another build in 2020. An anonymous donor will match
+                your gift, dollar for dollar...&rdquo;
               </p>
             </div>
           </div>
@@ -196,9 +215,9 @@ export default function BlogPage() {
                 minivan build match, double your gift, double your fund
               </h1>
               <p className="text-[13px] mx-[40px] my-[0px] mb-[50px]">
-                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump, and toward
-                another build in 2020. An anonymous donor will match your gift,
-                dollar for dollar...&rdquo;
+                &ldquo;Contribute to October&apos;s Minivan Build in Pahrump,
+                and toward another build in 2020. An anonymous donor will match
+                your gift, dollar for dollar...&rdquo;
               </p>
             </div>
           </div>
@@ -207,7 +226,7 @@ export default function BlogPage() {
 
       <div className="mx-[3%] mt-[50px]">
         <h1 className="flex flex-row justify-between items-center bg-black px-[30px] rounded-sm capitalize text-[13px] h-[30px] text-white mb-5">
-          our top Articles
+          our Recent Blog Articles
           <Link href={""} className="hover:text-gray-300">
             see all
           </Link>
@@ -238,6 +257,19 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -265,6 +297,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -292,6 +336,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -319,6 +375,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -346,6 +414,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -373,6 +453,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -400,6 +492,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -427,6 +531,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -454,6 +570,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -481,6 +609,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -508,6 +648,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
 
           <div className="w-[400px]">
@@ -535,6 +687,18 @@ export default function BlogPage() {
               Most children with Spina Bifida have Neurogenic bladder and bowel
               and no one wants them because of incontinence problems...
             </p>
+            <div className="flex flex-row items-center mx-5">
+              <span className="flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full bg-zinc-200 text-[10px]">
+                img
+              </span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                jonathan wills
+              </span>
+              <span className="block h-[10px] w-[10px] bg-zinc-600 rounded-full"></span>
+              <span className="flex flex-row items-center text-[12px] capitalize m-3">
+                19 jan 2025
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -543,8 +707,122 @@ export default function BlogPage() {
         <h1 className="text-[20px] capitalize font-light border-b-1 border-gray-300">
           current social posts
         </h1>
-        <div className="">
-          <span></span>
+
+        <div className="grid grid-cols-4 gap-4 mt-4">
+
+          <div className="flex flex-col bg-white rounded-[25px] w-[300px] relative pb-3">
+            <span className="flex flex-col items-center justify-center w-full h-[150px] bg-zinc-100 rounded-t-[25px]">
+              img
+            </span>
+            <span className="absolute flex flex-col items-center justify-center w-[60px] h-[60px] rounded-full bg-amber-500 border-5 top-[120px] left-5 border-white">
+              pic
+            </span>
+            <span className="absolute flex flex-col items-center justify-center px-[20px] py-[3px]  rounded-[30px] bg-black text-white capitalize cursor-pointer top-[160px] right-5  text-[12px]">
+              follow
+            </span>
+            <div className="flex flex-col mt-10 mx-5">
+              <div className="flex flex-col mb-[10px]">
+                <h1 className="capitalize text-[15px] font-medium">
+                  tenvelicor
+                </h1>
+                <small className="text-[11px]">@tenvelicor</small>
+              </div>
+              <p className="text-[12px]">
+                Empower your financial future at the touch of a button
+              </p>
+              <span className="flex flex-row items-center text-[12px] my-3">
+                192 <small className="text-[12px] capitalize text-zinc-500 mx-3">Following</small> 238.7k <small className="text-[12px] capitalize text-zinc-500 mx-3">Followers</small>
+              </span>
+            </div>
+          </div>
+
+
+          <div className="flex flex-col bg-white rounded-[25px] w-[300px] relative pb-3">
+            <span className="flex flex-col items-center justify-center w-full h-[150px] bg-zinc-100 rounded-t-[25px]">
+              img
+            </span>
+            <span className="absolute flex flex-col items-center justify-center w-[60px] h-[60px] rounded-full bg-amber-500 border-5 top-[120px] left-5 border-white">
+              pic
+            </span>
+            <span className="absolute flex flex-col items-center justify-center px-[20px] py-[3px]  rounded-[30px] bg-black text-white capitalize cursor-pointer top-[160px] right-5  text-[12px]">
+              follow
+            </span>
+            <div className="flex flex-col mt-10 mx-5">
+              <div className="flex flex-col mb-[10px]">
+                <h1 className="capitalize text-[15px] font-medium">
+                  tenvelicor
+                </h1>
+                <small className="text-[11px]">@tenvelicor</small>
+              </div>
+              <p className="text-[12px]">
+                Empower your financial future at the touch of a button
+              </p>
+              <span className="flex flex-row items-center text-[12px] my-3">
+                192 <small className="text-[12px] capitalize text-zinc-500 mx-3">Following</small> 238.7k <small className="text-[12px] capitalize text-zinc-500 mx-3">Followers</small>
+              </span>
+            </div>
+          </div>
+
+
+
+          <div className="flex flex-col bg-white rounded-[25px] w-[300px] relative pb-3">
+            <span className="flex flex-col items-center justify-center w-full h-[150px] bg-zinc-100 rounded-t-[25px]">
+              img
+            </span>
+            <span className="absolute flex flex-col items-center justify-center w-[60px] h-[60px] rounded-full bg-amber-500 border-5 top-[120px] left-5 border-white">
+              pic
+            </span>
+            <span className="absolute flex flex-col items-center justify-center px-[20px] py-[3px]  rounded-[30px] bg-black text-white capitalize cursor-pointer top-[160px] right-5  text-[12px]">
+              follow
+            </span>
+            <div className="flex flex-col mt-10 mx-5">
+              <div className="flex flex-col mb-[10px]">
+                <h1 className="capitalize text-[15px] font-medium">
+                  tenvelicor
+                </h1>
+                <small className="text-[11px]">@tenvelicor</small>
+              </div>
+              <p className="text-[12px]">
+                Empower your financial future at the touch of a button
+              </p>
+              <span className="flex flex-row items-center text-[12px] my-3">
+                192 <small className="text-[12px] capitalize text-zinc-500 mx-3">Following</small> 238.7k <small className="text-[12px] capitalize text-zinc-500 mx-3">Followers</small>
+              </span>
+            </div>
+          </div>
+
+
+
+          <div className="flex flex-col bg-white rounded-[25px] w-[300px] relative pb-3">
+            <span className="flex flex-col items-center justify-center w-full h-[150px] bg-zinc-100 rounded-t-[25px]">
+              img
+            </span>
+            <span className="absolute flex flex-col items-center justify-center w-[60px] h-[60px] rounded-full bg-amber-500 border-5 top-[120px] left-5 border-white">
+              pic
+            </span>
+            <span className="absolute flex flex-col items-center justify-center px-[20px] py-[3px]  rounded-[30px] bg-black text-white capitalize cursor-pointer top-[160px] right-5  text-[12px]">
+              follow
+            </span>
+            <div className="flex flex-col mt-10 mx-5">
+              <div className="flex flex-col mb-[10px]">
+                <h1 className="capitalize text-[15px] font-medium">
+                  tenvelicor
+                </h1>
+                <small className="text-[11px]">@tenvelicor</small>
+              </div>
+              <p className="text-[12px]">
+                Empower your financial future at the touch of a button
+              </p>
+              <span className="flex flex-row items-center text-[12px] my-3">
+                192 <small className="text-[12px] capitalize text-zinc-500 mx-3">Following</small> 238.7k <small className="text-[12px] capitalize text-zinc-500 mx-3">Followers</small>
+              </span>
+            </div>
+          </div>
+
+
+
+
+
         </div>
       </div>
 

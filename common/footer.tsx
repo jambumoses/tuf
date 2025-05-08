@@ -6,6 +6,7 @@ import {
   Twitter,
   Copyright,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -15,7 +16,7 @@ export default function Footer() {
       <section className="flex flex-row mx-[5%] py-[30px]">
         <div className="flex flex-col w-[300px]">
           <span className="flex flex-col justify-center items-center w-[80%] h-[100px] b-[30px]">
-            logo
+            <Image src={"/logo.jpeg"} alt="" width={100} height={100}/>
           </span>
           <p className="text-[11px] mt-5 mr-6">
             The Urban Foundation envisions a world where children with Spina
