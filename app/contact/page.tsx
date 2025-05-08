@@ -10,9 +10,9 @@ export default function ContactPage() {
   return (
     <section className="mx-[5%]">
       <ContactBanner />
-      <Socials />
+      {/* banner */}
+      <div className="bg-zinc-300 w-full h-[200px] mt-[50px] rounded-lg"></div>
       <ContactForm />
-      <ContactDetails />
       <Map />
       <Newsletters />
     </section>

@@ -13,7 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Faraja’s Way",
   description:
-    "The Urban Foundation envisions a world where children with Spina Bifida thrive in inclusive communities, empowered by education, quality continence care and essential life skills. We strive to break barriers, promote independence and foster a society that values and supports every child’s potential, ensuring they lead fulfilling lives.",
+    "Faraja’s Way envisions a world where children with Spina Bifida thrive in inclusive communities, empowered by education, quality continence care and essential life skills. We strive to break barriers, promote independence and foster a society that values and supports every child’s potential, ensuring they lead fulfilling lives.",
 };
 
 export default function RootLayout({

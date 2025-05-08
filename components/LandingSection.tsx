@@ -13,7 +13,7 @@ export default function LandingSection() {
     <div className="flex flex-row items-center justify-between h-[50%]">
       <h1 className='capitalize w-[40%] text-[40px] font-semibold text-zinc-600'>Small Changes Make A Big Impact On People’s Lives</h1>
       <p className='flex flex-col w-[50%] text-[13px]'>
-        The Urban Foundation envisions a Tanzania where children with Spina
+      Faraja’s Way envisions a Tanzania where children with Spina
         Bifida are empowered to lead independent and fulfilling lives, fully
         integrated into communities through access to quality education,
         comprehensive continence care and tailored independence training...

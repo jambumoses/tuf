@@ -5,7 +5,7 @@ export default function Vision() {
     <section className="m-[5%] bg-zinc-100 rounded-[20px] p-10">
       <div className="flex flex-row justify-center items-center mb-[100px]">
         <p className="text-[13px] w-[60%] text-center">
-          The Urban Foundation envisions a Tanzania where children with Spina
+        Faraja’s Way envisions a Tanzania where children with Spina
           Bifida are empowered to lead independent and fulfilling lives, fully
           integrated into communities through access to quality education, <br />
           ... comprehensive continence care and tailored independence training ...
@@ -16,7 +16,7 @@ export default function Vision() {
         <h1 className="uppercase my-[3%] text-[40px] font-semibold">
           our Vision
         </h1>
-        The Urban Foundation envisions a world where children with Spina Bifida
+        Faraja’s Way envisions a world where children with Spina Bifida
         thrive in inclusive communities, empowered by education, quality
         continence care and essential life skills. We strive to break barriers,
         promote independence and foster a society that values and supports every

@@ -19,7 +19,7 @@ export default function Footer() {
             <Image src={"/logo.jpeg"} alt="" width={100} height={100}/>
           </span>
           <p className="text-[11px] mt-5 mr-6">
-            The Urban Foundation envisions a world where children with Spina
+          Faraja’s Way envisions a world where children with Spina
             Bifida thrive in inclusive communities, empowered by education,
             quality continence care and essential life skills. We strive to
             break barriers, promote independence and foster a society that
@@ -163,7 +163,7 @@ export default function Footer() {
               </li>
               <li className="block my-[10px] w-full text-center list-none">
                 <Link
-                  href=""
+                  href="/donation"
                   className="flex flex-row items-center justify-center bg-black text-white h-[35px] w-[150px] rounded-[30px] m-auto mt-[-10px] text-[12px] capitalize decoration-0"
                 >
                   {" "}
