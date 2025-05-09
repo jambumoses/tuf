@@ -2,32 +2,32 @@
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import React, { useRef, useState } from "react";
-import { motion, MotionConfig } from "framer-motion";
+import React, { useEffect } from "react";
+import { motion, MotionConfig, Variants } from "framer-motion";
 import $ from "jquery";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Slider from "react-slick";
+/* import Slider from "react-slick"; */
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function LandingSection() {
   gsap.registerPlugin(ScrollTrigger);
 
-  const [showService, setShowService] = useState(false);
+ /*  const [showService, setShowService] = useState(false); */
 
-  const variants = {};
-  /*   function slideToggle(id) {
+  const variants: Variants = {};
+    function slideToggle(id:string) {
     $("#" + id).scrollLeft();
   }
 
   useEffect(() => {
     slideToggle("services-headers");
-  }, []); */
+  }, []);
 
-  const products = [1, 2, 3];
+  /* const products = [1, 2, 3]; */
 
-  const settings = {
+/*   const settings = {
     dots: false,
     speed: 500,
     slidesToShow: 1,
@@ -36,13 +36,13 @@ export default function LandingSection() {
     autoplay: true,
     arrows: false,
     autoplaySpeed: 10000,
-  };
+  }; */
 
-  const sliderRef = useRef();
+  /* const sliderRef = useRef(); */
 
-  const gotoNext = () => {
+ /*  const gotoNext = () => {
     sliderRef.current.slickNext();
-  };
+  }; */
 
   /* gsap.to("#next-ico", {
     y: '10',
@@ -59,7 +59,9 @@ export default function LandingSection() {
               <ChevronLeft size={25} />{" "}
             </span>
 
-            <motion.div
+            <div>banners</div>
+
+            {/* <motion.div
               initial={{ clipPath: "inset(0 100% 0 0)" }}
               animate={{ clipPath: "inset(0 0 0 0)" }}
               whileInView={{ clipPath: "inset(0 0 0 0)" }}
@@ -77,9 +79,9 @@ export default function LandingSection() {
                 <div>img2</div>
                 <div>img3</div>
               </Slider>
-            </motion.div>
+            </motion.div> */}
 
-            <span className="cursor-pointer" onClick={() => gotoNext()}>
+            <span className="cursor-pointer" >
               {" "}
               <ChevronRight size={25} />{" "}
             </span>
