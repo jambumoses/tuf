@@ -16,7 +16,9 @@ export default function Footer() {
       <section className="flex flex-row mx-[5%] py-[30px]">
         <div className="flex flex-col w-[300px]">
           <span className="flex flex-col justify-center items-center w-[80%] h-[100px] b-[30px]">
-            <Image src={"/logo.jpeg"} alt="" width={100} height={100}/>
+            {/* <Image src={"/faraja's plane.png"} alt="" width={100} height={100}/> */}
+                      <Image src={"/faraja's.png"} alt="faraja's way" width={200} height={50}/>
+            
           </span>
           <p className="text-[11px] mt-5 mr-6">
           Faraja’s Way envisions a world where children with Spina
