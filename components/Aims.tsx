@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Aims() {
   return (
-    <section className="flex flex-row justify-between m-[5%]">
-    <div className="w-[50%]">
-      <span className="flex flex-row h-[400px] w-full bg-gray-400"></span>
+    <section className="flex max-sm:flex-col sm:flex-col md:flex-row lg:flex-row justify-between m-[5%] mb-[150px]">
+    <div className="max-sm:w-full md:w-[50%] sm:w-full  lg:w-[50%] max-sm:mb-[100px] sm:mb-[100px]">
+      <span className="flex flex-row max-sm:h-[400px] sm:h-[400px] md:h-[300px] lg:h-[400px] w-full bg-gray-400"></span>
       <span className="flex flex-col mt-[5%]">
         <h2 className='capitalize text-[18px]'>
           aiming
@@ -21,15 +21,15 @@ export default function Aims() {
       </span>
     </div>
 
-    <div className="w-[50%] flex flex-col items-end">
-      <h1 className='capitalize text-[35px] text-right ml-[5%]'>Establish sense of unity and common identity among children</h1>
-      <small className='mt-[20px] text-[13px] text-right'>with Spina Bifida and Hydrocephalus.</small>
-      <p className='mt-[5%] text-[13px] w-[300px] text-right'>
+    <div className="max-sm:w-full md:w-[50%] lg:w-[50%] flex flex-col max-sm:items-start sm:items-start md:items-start lg:items-end">
+      <h1 className='capitalize text-[35px] text-right ml-[5%] max-sm:text-left sm:text-left lg:text-right max-sm:text-[25px] sm:text-[25px]'>Establish sense of unity and common identity among children</h1>
+      <small className='max-sm:ml-[5%] sm:ml-[5%] mt-[20px] text-[13px] max-sm:text-right sm:text-right md:text-left lg:text-right'>with Spina Bifida and Hydrocephalus.</small>
+      <p className='max-sm:text-left sm:text-left max-sm:ml-[5%] sm:ml-[5%] mt-[5%] text-[13px] w-[300px] md:text-left lg:text-right'>
         Most children with Spina Bifida have Neurogenic bladder and bowel
         and no one wants them because of incontinence problems.
       </p>
 
-      <div className="flex flex-row mt-[150px]">
+      <div className="flex flex-row max-sm:mt-[50px] sm:mt-[50px] max-sm:ml-[5%] sm:ml-[5%] md:mt-[150px] lg:mt-[150px]">
         <div className="flex flex-row mr-[30px]">
             <span className='flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full border border-gray-300 bg-white mr-[-10px] z-10'></span>
             <span className='flex flex-col justify-center items-center w-[50px] h-[50px] rounded-full border border-gray-300 bg-white mr-[-10px] z-10'></span>
@@ -40,7 +40,7 @@ export default function Aims() {
           <h1 className='text-[15px] font-bold text-left'>325k</h1>
           <small className='text-left m-0 text-[12px]'>children with Spina Bifida</small>
         </span>
-      </div>0vh
+      </div>
     </div>
   </section>
   )

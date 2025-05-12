@@ -2,11 +2,11 @@ import React from "react";
 
 export default function ShortAbout() {
   return (
-    <section className="flex flex-row justify-between items-center mx-[5%] my-[10%]">
-      <div className="flex flex-col justify-center items-center w-[45%] h-[400px] bg-gray-400">
+    <section className="flex max-sm:flex-col sm:flex-col md:flex-col lg:flex-row justify-between items-center mx-[5%] my-[10%] pb-[30px] mb-[150px]">
+      <div className="flex flex-col justify-center items-center max-sm:w-full sm:w-full md:w-full lg:w-[45%] h-[400px] bg-gray-400">
         img
       </div>
-      <div className="flex flex-col w-[50%]">
+      <div className="flex flex-col md:w-[80%] lg:w-[50%] max-sm:mt-[40px] sm:mt-[40px] md:mt-[40px]">
         <small className="text-orange-400 text-[15px] uppercase">
           our mission
         </small>
@@ -29,7 +29,7 @@ export default function ShortAbout() {
           </small>
         </p>
 
-        <div className="flex felx-row">
+        <div className="flex flex-row">
           <span className="flex flex- flex-col justify-center items-center italic text-[10px] w-[50%]">signature</span>
           <span className="flex flex-row justify-center items-center w-[50%]">
             <span className="flex flex-col justify-center items-center h-[80px] w-[80px] text-[13px] bg-gray-400 rounded-[50%]">img</span>
