@@ -4,8 +4,8 @@ import React from "react";
 export default function Mission() {
   return (
     <section className="flex flex-col items-center my-[180px]">
-      <div className="flex flex-row w-[80%]">
-        <div className="w-[50%]">
+      <div className="flex max-sm:flex-col sm:flex-col md:flex-row lg:flex-row w-[80%]">
+        <div className="max-sm:w-full lg:w-[50%]">
           <h1 className="text-[30px] capitalize">mission</h1>
           <p className="flex flex-col">
             <small className="w-[300px] my-5">
@@ -43,7 +43,7 @@ export default function Mission() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-center items-center w-[50%] bg-zinc-400/30 h-[full]"></div>
+        <div className="max-sm:hidden sm:hidden lg:flex flex-col justify-center items-center w-[50%] bg-zinc-400/30 h-[full]"></div>
       </div>
     </section>
   );

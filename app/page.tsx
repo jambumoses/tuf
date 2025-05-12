@@ -1,7 +1,6 @@
 import Aims from "@/components/Aims";
 import Banner from "@/components/Banner";
 import Campaigns from "@/components/Campaigns";
-import GoalObjectives from "@/components/GoalObjectives";
 import LandingSection from "@/components/LandingSection";
 import Newsletters from "@/components/Newsletters";
 import PostsShowcase from "@/components/PostsShowcase";
@@ -15,7 +14,6 @@ export default function Home() {
       <ShortAbout />
       <PostsShowcase />
       <Campaigns />
-      <GoalObjectives />
       <Banner />
       <Newsletters />
     </section>

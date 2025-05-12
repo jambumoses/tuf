@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Counts() {
   return (
-    <section className="mx-[3%] flex flex-col justify-center items-center mb-[150px]">
+    <section className="max-sm:mx-[3%] sm:mx-0 md:mx-[3%] flex flex-col justify-center items-center mb-[150px]">
       <h1 className="font-bold capitalize text-[30px] text-zinc-500 mb-[20px]">
         Numbers in Operations
       </h1>
@@ -44,7 +44,7 @@ export default function Counts() {
       </div>
 
       {/* banner */}
-      <div className="bg-zinc-300 w-full h-[200px] mt-[50px] rounded-lg"></div>
+      <div className="bg-zinc-300 w-full h-[200px] mt-[50px] md:rounded-lg"></div>
     </section>
   );
 }
